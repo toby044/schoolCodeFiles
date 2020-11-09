@@ -1,3 +1,9 @@
+#header {
+    width: 60%;
+    display:flex;
+    justify-content: space-around;
+}
+
 #myDice, #myDice1, #myDice2, #myDice3, #myDice4, #myDice5 {
     width: 100px;
     height: 100px;
@@ -10,3 +16,4 @@
     font-size: 35px;
     margin: 5px;
 }
+
