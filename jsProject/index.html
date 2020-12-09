@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Restaurant <span class="orangeText">Cheesy</span></h1>
+        <hr class="line">
+        
+        <form id="form" name="form">
+            <div class="option">
+                <label for="fname">Your name:</label>
+                <input id="fname" type="text" name="fname">
+            </div>
+            
+            <div class="option">
+                <label for="famount">How many people:</label>
+                <select id="famount" name="famount" size="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div class="option">
+                <label for="fdate">Date:</label>
+                <input id="fdate" type="date" name="fdate">
+            </div>
+            <div class="option">
+                <label for="ftime">Time:</label>
+                <input id="ftime" type="time" name="ftime">
+            </div>
+            <input type="submit" id="confirmBtn">
+        </form>
+
+        <p id="errorText"></p>
+        <p id="bookedText"></p>
+    </main>
+</body>
